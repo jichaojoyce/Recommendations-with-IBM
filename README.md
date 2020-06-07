@@ -12,7 +12,6 @@
 3. [Authors](#authors)
 4. [License](#license)
 5. [Acknowledgement](#acknowledgement)
-6. [Example](#screenshots)
 
 <a name="descripton"></a>
 ## Description
@@ -51,10 +50,9 @@ or
 
 This will open the iPython Notebook software and project file in your browser.
 ### Data distribution:
-The below figure is the distribution of message genres
-![dis Pic](over.png)
-The below figure is the distribution of categories
-![dis Pic](categories.png)
+The below figure is the distribution of articles
+![dis Pic](DataDistribution.png)
+Overall, the total count number is 5148 and 50% of individuals interact with 3 number of articles or fewer. 
 <a name="authors"></a>
 ## Authors
 
@@ -67,8 +65,3 @@ Feel free to use it!
 ## Acknowledgements
 
 Credicts give to [Udacity](https://www.udacity.com/).
-
-<a name="screenshots"></a>
-## Example
-
-1. You can type a sentence for classify. Here I typed 'we are more than 50 people sleeping on the street. Please help us find food, tent.'
