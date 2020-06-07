@@ -1,6 +1,6 @@
 # Recommendations-with-IBM Project
 
-![Intro Pic](intro.png)
+![Intro Pic](BIM.png)
 
 ## Table of Contents
 1. [Description](#description)
@@ -17,26 +17,23 @@
 <a name="descripton"></a>
 ## Description
 
-This Project is part of Data Science Nanodegree Program by Udacity in collaboration with Figure Eight.
-The initial dataset contains disaster related categories and messages. 
-This project is aim to classify the disaster related messages to different group. Writen in python.
+This Project is part of Data Science Nanodegree Program by Udacity in collaboration with BIM Watson Studio platform.
+The initial dataset contains users information on the articles recommendation. 
+This project is aim to analyze the interactions that users have with articles on the IBM Watson Studio platform, and make recommendations to them about new articles they will like.
 
-The Project contains three folders:
+The Project contains two files:
 
-1. 'data' folder contains the excel data and ETL Pipeline. The ETL pipeline is to extract data from source, clean data and save them in a proper databse structure
-2. 'models' folder contains Machine Learning Pipeline. The ML pipeline used GridSearchCV to train the model to category messages.
-3. 'app' folder is to show model results in a html web.
+1. 'Recommendations_with_IBM.ipynb'. The Jupyter notebook aims to (1) explore the article data; (2) compute user interactions; (3) deal with 'cold start problem': for new users, make recommendations based on the popular content; (4) use the SVD (singular value decomposition) model to build out a matrix decomposition and predict new articles an individual may interact with.  
+2. 'Recommendations_with_IBM.html'. The html version of the 'Recommendations_with_IBM.ipynb' Jupyter notebook. 
 
 <a name="getting_started"></a>
 ## Getting Started
 
 <a name="dependencies"></a>
 ### Libraries
-* Machine Learning Libraries: NumPy, SciPy, Pandas, Sciki-Learn
-* Natural Language Process Libraries: NLTK
-* SQLlite Database Libraqries: SQLalchemy
-* Web App and Data Visualization: Flask, Plotly
-
+* Machine Learning Libraries: NumPy, Pandas
+* Database Libraqries: pickle, project_tests
+* Web App and Data Visualization: matplotlib.pyplot
 <a name="installing"></a>
 ### Installing
 Clone this GIT repository:
