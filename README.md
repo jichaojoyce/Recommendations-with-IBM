@@ -38,22 +38,18 @@ The Project contains two files:
 ### Installing
 Clone this GIT repository:
 ```
-https://github.com/jichaojoyce/Disaster-classsifier-.git
+https://github.com/jichaojoyce/Recommendations-with-IBM.git
 ```
 <a name="Instruction"></a>
 ### Instructions:
-1. Run the following commands in the project's root directory to set up your database and model.
+1. In a terminal or command window, navigate to the top-level project directory Recommendations-with-IBM/ (that contains this README) and run one of the following commands:
+```ipython notebook Recommendations_with_IBM.ipynb```
 
-    - To run ETL pipeline that cleans data and stores in database
-        `python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/disease.db`
-    - To run ML pipeline that trains classifier and saves
-        `python models/train_classifier.py data/disease.db models/classifier.pkl`
+or
 
-2. Run the following command in the app's directory to run your web app.
-    `python run.py`
+```jupyter notebook Recommendations_with_IBM.ipynb```
 
-3. Go to http://0.0.0.0:3001/
-
+This will open the iPython Notebook software and project file in your browser.
 ### Data distribution:
 The below figure is the distribution of message genres
 ![dis Pic](over.png)
