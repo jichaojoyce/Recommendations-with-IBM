@@ -52,7 +52,9 @@ This will open the iPython Notebook software and project file in your browser.
 ### Data distribution:
 The below figure is the distribution of articles
 ![dis Pic](DataDistribution.png)
+
 Overall, the total count number is 5148 and 50% of individuals interact with 3 number of articles or fewer. 
+
 <a name="authors"></a>
 ## Authors
 
