@@ -17,7 +17,7 @@
 ## Description
 
 This Project is part of Data Science Nanodegree Program by Udacity in collaboration with BIM Watson Studio platform.
-The initial dataset contains users information on the articles recommendation. 
+The initial dataset contains users information on the articles reading. 
 This project is aim to analyze the interactions that users have with articles on the IBM Watson Studio platform, and make recommendations to them about new articles they will like.
 
 The Project contains two files:
